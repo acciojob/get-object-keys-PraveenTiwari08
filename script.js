@@ -1,6 +1,11 @@
-//your JS code here. If required.
-student = {
-	name: "Raj",
-	Role: "Developer"
-}
+const student = {
+  name: "raj"
+};
 
+// Add a method to Object prototype
+Object.prototype.getKeys = function() {
+  return Object.keys(this);
+};
+
+// Testing
+console.log(student.getKeys());
