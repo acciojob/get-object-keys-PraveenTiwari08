@@ -3,7 +3,7 @@ const student = {
 };
 
 // Add a method to Object prototype
-Object.prototype.getKeys = () => {
+Object.prototype.getKeys = function() {
   return Object.keys(this);
 };
 
