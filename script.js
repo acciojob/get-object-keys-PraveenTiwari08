@@ -1,5 +1,6 @@
 const student = {
-  name: "raj"
+  name: "raj",
+  name: "raj",
 };
 
 // Add a method to Object prototype
